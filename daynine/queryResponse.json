@@ -1,0 +1,212 @@
+{
+    "exercises": [
+        {
+            "tag_id": 225,
+            "user_input": "badminton",
+            "duration_min": 60,
+            "met": 5.5,
+            "nf_calories": 385,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/225_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/225_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 15030,
+            "name": "badminton",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 195,
+            "user_input": "volleyball",
+            "duration_min": 120,
+            "met": 4,
+            "nf_calories": 560,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/195_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/195_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 15710,
+            "name": "volleyball",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 215,
+            "user_input": "cricket",
+            "duration_min": 120,
+            "met": 4.8,
+            "nf_calories": 672,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/215_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/215_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 15150,
+            "name": "cricket",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 100,
+            "user_input": "walking",
+            "duration_min": 120,
+            "met": 3.5,
+            "nf_calories": 490,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 17190,
+            "name": "walking",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 100,
+            "user_input": "walked",
+            "duration_min": 20,
+            "met": 3.5,
+            "nf_calories": 81.67,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 17190,
+            "name": "walking",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 100,
+            "user_input": "walked",
+            "duration_min": 240,
+            "met": 3.5,
+            "nf_calories": 980,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 17190,
+            "name": "walking",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 215,
+            "user_input": "cricket",
+            "duration_min": 120,
+            "met": 4.8,
+            "nf_calories": 672,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/215_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/215_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 15150,
+            "name": "cricket",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 100,
+            "user_input": "walked",
+            "duration_min": 20,
+            "met": 3.5,
+            "nf_calories": 81.67,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 17190,
+            "name": "walking",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 100,
+            "user_input": "walked",
+            "duration_min": 20,
+            "met": 3.5,
+            "nf_calories": 81.67,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 17190,
+            "name": "walking",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 317,
+            "user_input": "ran",
+            "duration_min": 10,
+            "met": 9.8,
+            "nf_calories": 114.33,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/317_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/317_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 12050,
+            "name": "running",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 100,
+            "user_input": "walked",
+            "duration_min": 10,
+            "met": 3.5,
+            "nf_calories": 40.83,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 17190,
+            "name": "walking",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 215,
+            "user_input": "cricket",
+            "duration_min": 10,
+            "met": 4.8,
+            "nf_calories": 56,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/215_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/215_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 15150,
+            "name": "cricket",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 100,
+            "user_input": "walked",
+            "duration_min": 20,
+            "met": 3.5,
+            "nf_calories": 81.67,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 17190,
+            "name": "walking",
+            "description": null,
+            "benefits": null
+        }
+    ]
+}

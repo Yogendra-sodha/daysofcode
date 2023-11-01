@@ -1,0 +1,14 @@
+{
+    "search_found": true,
+    "queryDate": "23/11/01",
+    "queryTime": "08:36:34",
+    "deptAirport": "EWR",
+    "arrAirport": "BOM",
+    "localDeparture": "2023-12-06 00:20",
+    "localArrival": "2023-12-07 05:10",
+    "deptHours": 18.33,
+    "arrHours": 26.25,
+    "fare": 790,
+    "airlines": "['TK']",
+    "route": "[('New York', 'Istanbul'), ('Istanbul', 'Mumbai'), ('Mumbai', 'Istanbul'), ('Istanbul', 'New York')]"
+}

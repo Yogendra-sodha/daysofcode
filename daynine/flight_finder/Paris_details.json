@@ -1,0 +1,13 @@
+{
+    "queryDate": "23/11/01",
+    "queryTime": "06:35:32",
+    "deptAirport": "EWR",
+    "arrAirport": "ORY",
+    "localDeparture": "2023-12-08 23:00",
+    "localArrival": "2023-12-09 12:00",
+    "deptHours": 7.0,
+    "arrHours": 8.33,
+    "fare": 434,
+    "airlines": "['BF']",
+    "route": "[('New York', 'Paris'), ('Paris', 'New York')]"
+}

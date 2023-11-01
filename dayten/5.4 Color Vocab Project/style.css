@@ -1,0 +1,16 @@
+#red{
+    font-weight:normal;
+    color: red;
+}
+#blue{
+    font-weight:normal;
+    color: rgb(133, 133, 233);
+}
+#orange{
+    font-weight:normal;
+    color: orange;
+}
+img{
+    width: 200px;
+    height: 200px;
+}

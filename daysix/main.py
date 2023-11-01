@@ -1,3 +1,6 @@
+# main points accesing value from pandas based on usr input
+# removing the states as usr guessed
+
 import turtle
 import pandas as pd
 

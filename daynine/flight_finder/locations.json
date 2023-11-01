@@ -1,0 +1,106 @@
+{
+    "locations": [
+        {
+            "id": "mumbai_in",
+            "active": true,
+            "name": "Mumbai",
+            "slug": "mumbai-india",
+            "slug_en": "mumbai-india",
+            "code": "BOM",
+            "alternative_names": [],
+            "rank": 23,
+            "global_rank_dst": 12,
+            "dst_popularity_score": 3069193.0,
+            "timezone": "Asia/Kolkata",
+            "population": 12691836,
+            "airports": 1,
+            "stations": 0,
+            "hotels": 835,
+            "bus_stations": 0,
+            "subdivision": null,
+            "autonomous_territory": null,
+            "country": {
+                "id": "IN",
+                "name": "India",
+                "slug": "india",
+                "code": "IN"
+            },
+            "region": {
+                "id": "southern-asia",
+                "name": "Southern Asia",
+                "slug": "southern-asia"
+            },
+            "continent": {
+                "id": "asia",
+                "name": "Asia",
+                "slug": "asia",
+                "code": "AS"
+            },
+            "nearby_country": null,
+            "location": {
+                "lat": 19.075984,
+                "lon": 72.877656
+            },
+            "tags": [
+                {
+                    "tag": "family fun",
+                    "month_to": -1,
+                    "month_from": -1
+                },
+                {
+                    "tag": "nightlife",
+                    "month_to": -1,
+                    "month_from": -1
+                }
+            ],
+            "alternative_departure_points": [
+                {
+                    "id": "PNQ",
+                    "distance": 154.58,
+                    "duration": 7265.2
+                },
+                {
+                    "id": "ISK",
+                    "distance": 171.04,
+                    "duration": 7440.6
+                },
+                {
+                    "id": "SAG",
+                    "distance": 232.43,
+                    "duration": 10084.6
+                },
+                {
+                    "id": "STV",
+                    "distance": 285.65,
+                    "duration": 12682.3
+                },
+                {
+                    "id": "BOM",
+                    "distance": 3.3,
+                    "duration": 413.2
+                }
+            ],
+            "providers": [
+                1175,
+                1282
+            ],
+            "car_rentals": [
+                {
+                    "provider_id": 1175,
+                    "providers_locations": [
+                        "1202131"
+                    ]
+                }
+            ],
+            "type": "city"
+        }
+    ],
+    "meta": {
+        "locale": {
+            "code": "en-US",
+            "status": "Locale not specified, using default."
+        }
+    },
+    "last_refresh": 1698743179,
+    "results_retrieved": 1
+}
