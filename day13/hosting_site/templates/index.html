@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-wZvVNtoN40AEXQ8kGwThpVT4Vp/BAGgZK8Fw1ql5YeZP5VS5/H6WzC3cr8IQIi7pi6Xp1aZ/nCzWl+s4aU4pEg==" crossorigin="anonymous" />
+    <title>YSS Portfolio</title>
+    <!-- Add any additional stylesheets or meta tags as needed -->
+</head>
+<body>
+
+    <header>
+        <h1>Yogi</h1>
+        <p>Data Dynamo</p>
+    </header>
+
+    <section id="intro">
+        <div class="photo-container">
+            <img src="static/prof.jpg" alt="profile photo">
+        </div>
+        <div class="intro-text">
+            <h1>Your Name</h1>
+            <p class="short-description">
+                Hi, I'm Yogendrasinh as a Yogi. I am Data Engineer by work and badminton player by sport.
+            </p>
+
+            <!-- Contact Symbols Section -->
+            <div class="contact-symbols">
+                <a href="https://www.linkedin.com/in/yogendrasinh-sodha/" target="_blank" class="contact-icon">&#127760;</a>
+                <a href="https://github.com/Yogendra-sodha" target="_blank" class="contact-icon">&#128187;</a>
+                <a href="https://your-resume-website.com" target="_blank" class="contact-icon">&#128203;</a>
+                <a href="mailto:ysodha@stevens.edu" class="contact-icon">&#9993;</a>
+                <a href="tel:+12012389412" class="contact-icon">&#128222;</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Real-time Cryptocurrency Data Processing and Integration</h3>
+            <p>
+                I designed a system that regularly fetches data from the CoinCap API every 5 minutes using a cronjob. The data is then transformed to a more standard time format, and the updated info is stored in a PostgreSQL database.
+            </p>
+            <p>
+                To make things easier, I set up an automated infrastructure using a Make File. This involves using a Docker Compose file to create images, setting up an AWS EC2 instance with Terraform, and making a Docker image for Metabase. This setup lets us easily visualize the real-time processing of cryptocurrency data in Metabase dashboards.
+            </p>
+            <p>
+                GitHub: <a href="https://github.com/Yogendra-sodha/Real-time-Cryptocurrency-Data-Processing-and-Integration" target="_blank">https://github.com/Yogendra-sodha/Real-time-Cryptocurrency-Data-Processing-and-Integration</a>
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>First Click Attribution E-commerce Streaming Pipeline</h3>
+            <p>
+                Developed a Python script to create synthetic E-commerce data, encompassing user interactions, clicks, and checkout details. This data was then directed into Kafka topics, with consumers subscribing to ingest the information into a Flink cluster for computation.
+            </p>
+            <p>
+                Employed the Kafka JDBC connector to consume data from the Kafka topic, executing real-time processing within the Flink cluster based on a "first click" condition. The processed data was subsequently loaded into a PostgreSQL sink table, ensuring seamless storage of the computed results.
+            </p>
+            <p>
+                Implemented Apache Flink's interval and time-based processing join to perform a left join between checkouts and clicks tables within the past hour. This approach ensures accurate attribution with minimal state retention. Utilized HashMap as the state backend to efficiently store larger datasets while maintaining low-latency read times.
+            </p>
+            <p>
+                GitHub: <a href="https://github.com/Yogendra-sodha/First-Click-Attribution-E-commerce-Streaming-Pipeline" target="_blank">https://github.com/Yogendra-sodha/First-Click-Attribution-E-commerce-Streaming-Pipeline</a>
+            </p>
+        </div>
+
+        <!-- Add more project entries as needed -->
+
+    </section>
+
+    <!-- Add other sections for resume, contact, about, hobbies, etc. -->
+
+    <footer>
+        <p>Contact me at <a href="mailto:ysodha@stevens.edu">ysodha@stevens.edu</a></p>
+    </footer>
+
+</body>
+</html>

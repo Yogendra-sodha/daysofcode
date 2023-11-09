@@ -1,13 +1,14 @@
 {
-    "queryDate": "23/11/01",
-    "queryTime": "06:35:32",
-    "deptAirport": "EWR",
-    "arrAirport": "ORY",
-    "localDeparture": "2023-12-08 23:00",
-    "localArrival": "2023-12-09 12:00",
-    "deptHours": 7.0,
-    "arrHours": 8.33,
-    "fare": 434,
-    "airlines": "['BF']",
-    "route": "[('New York', 'Paris'), ('Paris', 'New York')]"
+    "search_found": true,
+    "queryDate": "23/11/06",
+    "queryTime": "16:32:43",
+    "deptAirport": "SWF",
+    "arrAirport": "CDG",
+    "localDeparture": "2023-12-07 18:15",
+    "localArrival": "2023-12-08 10:30",
+    "deptHours": 10.25,
+    "arrHours": 11.58,
+    "fare": 355,
+    "airlines": "['OG']",
+    "route": "[('New York', 'Reykjavik'), ('Reykjavik', 'Paris'), ('Paris', 'Reykjavik'), ('Reykjavik', 'New York')]"
 }

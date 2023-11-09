@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style> .flex-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    </style>
+    }
+</head>
+<body>
+<div class="wrapper">
+    <div class="top">
+        <div class="title"><h1>My Blog</h1></div>
+    </div>
+    <div class="content">
+        {% for i in blog %}
+        <div class="card">
+            <h2>{{ i["title"] }}</h2>
+            <p class="text">{{ i["subtitle"] }}</p>
+            <a href=" {{ url_for('get_blog',num=i['id']) }} ">Read</a>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="flex-container">
+        <div class="card" style="width: 18rem;">
+            <img src="https://pngimg.com/uploads/sunflower/sunflower_PNG103779.png" class="card-img-top" alt="sunflower">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+   </div>
+</div>
+</body>
+<footer>
+    <p>Made with ♥️</p>
+</footer>
+</html>

@@ -207,6 +207,70 @@
             "name": "walking",
             "description": null,
             "benefits": null
+        },
+        {
+            "tag_id": 317,
+            "user_input": "ran",
+            "duration_min": 20,
+            "met": 9.8,
+            "nf_calories": 228.67,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/317_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/317_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 12050,
+            "name": "running",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 317,
+            "user_input": "ran",
+            "duration_min": 20,
+            "met": 9.8,
+            "nf_calories": 228.67,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/317_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/317_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 12050,
+            "name": "running",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 100,
+            "user_input": "walked",
+            "duration_min": 10,
+            "met": 3.5,
+            "nf_calories": 40.83,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/100_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 17190,
+            "name": "walking",
+            "description": null,
+            "benefits": null
+        },
+        {
+            "tag_id": 132,
+            "user_input": "flight",
+            "duration_min": 5,
+            "met": 8,
+            "nf_calories": 46.67,
+            "photo": {
+                "highres": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/132_highres.jpg",
+                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/exercise/132_thumb.jpg",
+                "is_user_uploaded": false
+            },
+            "compendium_code": 17130,
+            "name": "stair climbing",
+            "description": null,
+            "benefits": null
         }
     ]
 }

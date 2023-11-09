@@ -1,0 +1,159 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #f5f5dc, #ffffff);
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #333;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(45deg, #f5f5dc, #ffffff);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #333;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    font-size: 2em;
+    color: #333;
+}
+
+/* .project {
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #f5f5dc, #ffffff);
+    padding: 15px;
+    border-radius: 5px;
+} */
+
+a {
+    color: #b8860b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #996515;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Add this to the end of your styles.css file */
+
+
+.project {
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #f5f5dc, #ffffff);
+    padding: 15px;
+    border-radius: 5px;
+    position: relative; /* Added for positioning the ::after pseudo-element */
+    overflow: hidden; /* Added to hide overflowing content inside .project */
+    transition: background 0.3s ease; /* Added transition for background color change */
+}
+
+.project:hover {
+    box-shadow: 0 0 15px rgba(204, 65, 65, 0.3);
+    transform: scale(1.05);
+    background: #e6e6b8; /* Set the background color to dark cream when hovering */
+}
+
+.project::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5f5dc; /* Set initial background color to dark cream */
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project:hover::after {
+    opacity: 1;
+}
+
+/* Add this to the end of your styles.css file */
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.intro-text {
+    max-width: 600px;
+    width: 100%; /* Make the text container width 100% */
+}
+
+.photo-container {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.photo-container img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.short-description {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Add this to the end of your styles.css file */
+
+.contact-symbols {
+    display: flex;
+    margin-top: 10px;
+}
+
+.contact-icon {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-icon:hover {
+    color: #996515;
+}

@@ -1,14 +1,14 @@
 {
     "search_found": true,
-    "queryDate": "23/11/01",
-    "queryTime": "08:36:34",
-    "deptAirport": "EWR",
+    "queryDate": "23/11/06",
+    "queryTime": "16:33:06",
+    "deptAirport": "JFK",
     "arrAirport": "BOM",
-    "localDeparture": "2023-12-06 00:20",
-    "localArrival": "2023-12-07 05:10",
-    "deptHours": 18.33,
-    "arrHours": 26.25,
-    "fare": 790,
-    "airlines": "['TK']",
-    "route": "[('New York', 'Istanbul'), ('Istanbul', 'Mumbai'), ('Mumbai', 'Istanbul'), ('Istanbul', 'New York')]"
+    "localDeparture": "2023-12-06 16:25",
+    "localArrival": "2023-12-07 22:25",
+    "deptHours": 19.5,
+    "arrHours": 22.08,
+    "fare": 1012,
+    "airlines": "['LX']",
+    "route": "[('New York', 'Z\u00fcrich'), ('Z\u00fcrich', 'Mumbai'), ('Mumbai', 'Z\u00fcrich'), ('Z\u00fcrich', 'New York')]"
 }
