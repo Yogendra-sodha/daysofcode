@@ -1,0 +1,14 @@
+{
+    "search_found": true,
+    "queryDate": "23/11/09",
+    "queryTime": "15:17:14",
+    "deptAirport": "LGA",
+    "arrAirport": "DFW",
+    "localDeparture": "2023-12-06 22:50",
+    "localArrival": "2023-12-07 02:03",
+    "deptHours": 4.22,
+    "arrHours": 3.37,
+    "fare": 98,
+    "airlines": "['F9', 'NK']",
+    "route": "[('New York', 'Dallas'), ('Dallas', 'New York')]"
+}

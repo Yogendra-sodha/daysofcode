@@ -1,14 +1,14 @@
 {
     "search_found": true,
-    "queryDate": "23/11/06",
-    "queryTime": "16:33:06",
+    "queryDate": "23/11/09",
+    "queryTime": "15:13:16",
     "deptAirport": "JFK",
     "arrAirport": "BOM",
     "localDeparture": "2023-12-06 16:25",
     "localArrival": "2023-12-07 22:25",
     "deptHours": 19.5,
     "arrHours": 22.08,
-    "fare": 1012,
+    "fare": 999,
     "airlines": "['LX']",
     "route": "[('New York', 'Z\u00fcrich'), ('Z\u00fcrich', 'Mumbai'), ('Mumbai', 'Z\u00fcrich'), ('Z\u00fcrich', 'New York')]"
 }
