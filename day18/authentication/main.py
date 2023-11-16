@@ -33,8 +33,6 @@ class User(db.Model,UserMixin):
 with app.app_context():
     db.create_all()
 
-
-
 # Login Manager
 
 # user loader checks user id associated with user table in db stored in sesison and will reload user object

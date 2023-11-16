@@ -10796,3 +10796,18 @@ header.masthead .post-heading .meta a {
     font-size: 2.25rem;
   }
 }
+.commentItem {
+  list-style: none;
+  margin-bottom: 10px; /* Adjust as needed for spacing between comments */
+}
+
+.commenterContainer {
+  display: flex;
+  align-items: flex-start; /* Align items to the top of the container */
+}
+
+.commenterImage {
+  margin-right: 10px; /* Adjust as needed for spacing between image and text */
+}
+
+
