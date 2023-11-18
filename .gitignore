@@ -171,6 +171,6 @@ cython_debug/
 
 
 # Database
-day19/blog/instance
+day19/blog/instance/
 
-day18/blog/instance
+day18/blog/instance/
