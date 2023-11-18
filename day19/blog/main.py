@@ -10,15 +10,19 @@ from flask_login import LoginManager, UserMixin, login_required, \
     login_user, current_user, logout_user
 from form import RegisterForm,blogForm, LoginForm, CommentForm
 import datetime
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = os.environ.get('FK')
+
 Bootstrap5(app)
 
 db = SQLAlchemy()
 # CONNECT TO DB
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///posts.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URI',"sqlite:///posts.db")
 db.init_app(app)
 
 # Start Login Manager
@@ -149,14 +153,17 @@ def show_post(post_id):
     all_comments = db.session.execute(db.select(Comment).where(Comment.pid == requested_post.id)).scalars()
     if comment.validate_on_submit():
         if not current_user.is_anonymous:
-            print(request.form["comment_body"])
-            print(len(request.form["comment_body"]))
             if len(request.form['comment_body']) == 0:
+                print(request.form['comment_body'])
+                print(len(request.form['comment_body']))
                 return render_template("post.html", post=requested_post, abc = all_comments, form = comment, logged_in = current_user)
             else :
                 user_comment = Comment( text = request.form['comment_body'], uid = current_user.id, pid = requested_post.id)
                 db.session.add(user_comment)
                 db.session.commit()
+               
+                flash('Comment posted successfully!', 'success')
+                return redirect(url_for("show_post", post_id = post_id))
         else:
             flash("Please login or create account to add comment")
             return redirect(url_for("login"))
@@ -217,6 +224,22 @@ def del_post(post_id):
     db.session.delete(del_query)
     db.session.commit()
     return redirect(url_for('get_all_posts'))
+
+# Delete comment
+@app.route("/delete_comment/<int:id>")
+@login_required
+def delete_comment(id):
+    if not current_user.is_anonymous:
+        del_comm = db.session.execute(db.select(Comment).where((Comment.id == id) & (Comment.uid == current_user.id))).scalar()
+        if del_comm:
+            pid = del_comm.pid
+            db.session.delete(del_comm)
+            db.session.commit()
+            return redirect(url_for("show_post", post_id = pid))
+        else:
+            return "You cannot delete others comment only del yours"
+    else:
+        return "You cannot delete comment login to del your comment"
 
 # Below is the code from previous lessons. No changes needed.
 @app.route("/about")

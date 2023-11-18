@@ -1,6 +1,7 @@
-import datetime
+from dotenv import load_dotenv
 
-a = datetime.datetime.now()
+load_dotenv()
+import os
 
-
-print(a.strftime("%B %d,%Y"))
+print(os.environ.get('FK'))
+print(os.environ.get('DATABASE_URI'))
